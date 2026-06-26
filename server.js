@@ -1,7 +1,7 @@
 const form = document.getElementById("studentForm");
 const studentsList = document.getElementById("studentsList");
 
-const API_URL = "http://localhost:3000/api/students";
+const API_URL = "/api/students";
 
 async function loadStudents() {
   const res = await fetch(API_URL);
